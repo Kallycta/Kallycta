@@ -98,11 +98,11 @@ valideForms();
 
 
 const triggerSubmit = document.querySelector('.contacts__form');
-triggerSubmit.addEventListener('submit', () => {
+triggerSubmit.addEventListener('reset', () => {
 
     const modalThanks = document.querySelector('.pageclip-form__success__message');
     
-    modalThanks.innerHTML = 'Спасибо, в ближайшее время я свяжусь с вами.';
+    modalThanks.textContent = 'Спасибо, в ближайшее время я свяжусь с вами.';
 });
 
 
