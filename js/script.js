@@ -17,3 +17,7 @@ const lines = document.querySelectorAll('.use__rating-overline');
 counters.forEach((item, i) => {
     lines[i].style.width = item.innerHTML;
 });
+
+const modalThanks = document.queryselector('.pageclip-form__success__message');
+
+modalThanks.innerHTML = 'Спасибо, в ближайшее время я свяжусь с вами.';
