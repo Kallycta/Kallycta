@@ -19,7 +19,3 @@ counters.forEach((item, i) => {
 });
 
 
-//  const triggerSubmit = document.querySelector('.contacts__btn');
-const modalThanks = document.querySelector('.pageclip-form__success__message');
-
-modalThanks.innerHTML = 'Спасибо, в ближайшее время я свяжусь с вами.';
