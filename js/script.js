@@ -97,7 +97,7 @@ $('form').submit(function(e) {
 valideForms();
 
 
-const triggerSubmit = document.querySelector('.contacts__btn');
+const triggerSubmit = document.querySelector('.contacts__form');
 triggerSubmit.addEventListener('submit', () => {
 
     const modalThanks = document.querySelector('.pageclip-form__success__message');
