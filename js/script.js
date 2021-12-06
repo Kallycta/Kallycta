@@ -18,6 +18,8 @@ counters.forEach((item, i) => {
     lines[i].style.width = item.innerHTML;
 });
 
-const modalThanks = document.queryselector('.pageclip-form__success__message');
+
+//  const triggerSubmit = document.querySelector('.contacts__btn');
+const modalThanks = document.querySelector('.pageclip-form__success__message');
 
 modalThanks.innerHTML = 'Спасибо, в ближайшее время я свяжусь с вами.';
